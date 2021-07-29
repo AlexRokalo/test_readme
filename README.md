@@ -47,7 +47,7 @@ USER_TOKEN - for example it's your Bearer Authourization token.
 
 ## Example Activity implementation
 
-class TestActivity : AppCompatActivity(R.layout.activity_default) {
+
 
     private val disposable = CompositeDisposable()
 
@@ -102,4 +102,4 @@ class TestActivity : AppCompatActivity(R.layout.activity_default) {
         disposable.clear()
         lifecycle.removeObserver(gamePointsObserver)
     }
-}
+
